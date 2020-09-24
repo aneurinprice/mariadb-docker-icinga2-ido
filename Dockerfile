@@ -1,4 +1,4 @@
-FROM mariadb
+FROM mariadb:latest
 
 RUN set -eux; \
   export DEBIAN_FRONTEND=noninteractive; \
